@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg1">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Number"
+    android:textStyle="bold|italic"
+    android:textSize="70sp"
+    android:textColor="@android:color/holo_blue_dark"
+    android:fontFamily="serif"
+    android:padding="5dp"
+    android:layout_marginTop="240dp"
+    android:layout_marginLeft="30dp"
+    >
+</TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Base"
+        android:textStyle="bold|italic"
+        android:textSize="80sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:fontFamily="serif"
+        android:padding="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="70dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Converter"
+        android:textStyle="bold|italic"
+        android:textSize="65sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:fontFamily="serif"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        >
+    </TextView>
+</LinearLayout>

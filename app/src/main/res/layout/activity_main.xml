@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+
+
+        <TextView
+            android:id="@+id/tvselect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Convert From"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_weight="0.15">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checkedButton="@+id/rb1"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb2"
+                    android:layout_weight="0.25"
+                    android:textAlignment="textStart"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    android:layout_marginLeft="20dp"
+                    android:checked="true"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <RadioButton
+                    android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb8"
+                    android:textStyle="bold|italic"
+                    android:layout_weight="0.13"
+                    android:textSize="30sp"
+                    tools:ignore="HardcodedText,RtlHardcoded"
+                    />
+
+                <RadioButton
+                    android:text="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb10"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="HardcodedText,RtlHardcoded"
+                    android:layout_weight="0.13"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:text="16"
+                    android:textStyle="bold|italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb16"
+                    android:textSize="30sp"
+                    tools:ignore="HardcodedText,RtlHardcoded"
+                    android:layout_weight="0.12"
+                    />
+
+            </RadioGroup>
+            <TextView
+                android:id="@+id/tventer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Enter Your Number"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/black"
+                android:textStyle="bold|italic"
+                android:layout_marginTop="30dp"
+                android:textSize="40sp"
+                android:layout_marginBottom="10dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.06">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:id="@+id/edittext1"
+                    android:layout_margin="10dp"
+                    android:hint="Number"
+                    android:textAlignment="center"
+                    android:background="@drawable/button"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="20"
+                    android:singleLine="false"
+                    android:saveEnabled="false" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      >
+        <TextView
+            android:id="@+id/tvselectto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Convert To "
+            android:fontFamily="serif"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="30dp"
+            android:textSize="30sp"
+            android:layout_marginBottom="10dp">
+        </TextView>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_weight="0.15">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:checkedButton="@+id/rb1"
+                android:orientation="horizontal"
+                >
+
+                <RadioButton
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb22"
+                    android:layout_weight="0.25"
+                    android:textAlignment="textStart"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    android:layout_marginLeft="20dp"
+                    android:checked="true"
+                    tools:ignore="HardcodedText,RtlHardcoded" />
+
+                <RadioButton
+                    android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb88"
+                    android:textStyle="bold|italic"
+                    android:layout_weight="0.13"
+                    android:textSize="30sp"
+                    tools:ignore="HardcodedText,RtlHardcoded"
+                    />
+
+                <RadioButton
+                    android:text="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb1010"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    tools:ignore="HardcodedText,RtlHardcoded"
+                    android:layout_weight="0.13"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:text="16"
+                    android:textStyle="bold|italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/rb1616"
+                    android:textSize="30sp"
+                    tools:ignore="HardcodedText,RtlHardcoded"
+                    android:layout_weight="0.12"
+                    />
+
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_height="71dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:weightSum="1">
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnconvert"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="Convert"
+                android:orientation="horizontal"
+                android:background="@drawable/clcbutton"
+                android:textSize="20sp"
+                android:state_pressed="true"
+                android:state_focused="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:textColor="@color/black"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_width="match_parent"
+                android:soundEffectsEnabled="true"
+                >
+            </androidx.appcompat.widget.AppCompatButton>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:text="Binary:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textAlignment="textStart"
+                android:textStyle="bold|italic"
+                android:visibility="invisible"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:maxLength="50"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Octal:"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:visibility="invisible"
+                android:textSize="25sp"
+                android:textStyle="italic|bold"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:text="decimal:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t10"
+                android:visibility="invisible"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textAlignment="textStart"
+                android:textStyle="italic|bold"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/text10"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textStyle="italic|bold"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:text="Hexa:"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t16"
+                android:textAllCaps="false"
+                android:visibility="invisible"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textAlignment="textStart"
+                android:textStyle="italic|bold"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/text16"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:textAlignment="textStart"
+                android:textStyle="bold|italic"
+                tools:ignore="HardcodedText,RtlHardcoded"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
