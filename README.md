@@ -1,8 +1,6 @@
 # Base-Converter
 A Number Base Converter App in Kotlin 
 
-APK:-[app-release.zip](https://github.com/MG1902/Base-Converter/files/7147540/app-release.zip)
-
 
 ![image](https://user-images.githubusercontent.com/73701565/132942734-ee77951e-5874-4672-b603-a8b71bbc352d.png)
 
